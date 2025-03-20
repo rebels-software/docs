@@ -1,0 +1,11 @@
+site_name: Rebels Software Docs
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.expand
+    - toc.integrate
+repo_url: https://github.com/rebels-software/docs
+repo_name: rebels-software/docs

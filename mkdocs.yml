@@ -1,5 +1,6 @@
-site_name: Rebels Software Docs
+site_name: rebels learn
 theme:
+  logo: assets/logo.png
   name: material
   features:
     - navigation.instant
@@ -7,5 +8,16 @@ theme:
     - navigation.sections
     - navigation.expand
     - toc.integrate
-repo_url: https://github.com/rebels-software/docs
-repo_name: rebels-software/docs
+  palette: 
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-3
+        name: Switch to light mode
+extra_css:
+  - stylesheets/extra.css

@@ -1,0 +1,17 @@
+[data-md-color-scheme="slate"]  {
+    --md-primary-fg-color:        #000000;
+    }
+
+[data-md-color-scheme="default"] {
+    --md-primary-fg-color: #000000;
+    --md-accent-fg-color:  #d6fd63;
+    }
+
+    @font-face {
+        font-family: "Roobert";
+        src: "assets\font.otf";
+      }
+
+      .md-header__title {
+        margin-left: 0 !important;
+      }
